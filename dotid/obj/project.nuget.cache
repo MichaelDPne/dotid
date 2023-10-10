@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "A68WssX76GQEZneUnz4tzxb5BIBS2fglE6q8rpY0ke9XDaeC/uD3kzqZy29NMEIB/PwbZEc7Nkymh/FsiDLsvA==",
+  "success": true,
+  "projectFilePath": "C:\\code\\dotid\\dotid.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Mikey\\.nuget\\packages\\csvhelper\\30.0.1\\csvhelper.30.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}

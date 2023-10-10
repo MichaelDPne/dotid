@@ -1,0 +1,7 @@
+@use '../imports/variables' as *;
+
+#map {
+    border: solid .1rem $black;
+    height:85vh;
+    width: 100%;
+}
