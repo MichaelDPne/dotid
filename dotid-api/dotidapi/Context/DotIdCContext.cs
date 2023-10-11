@@ -1,4 +1,5 @@
 ﻿using dotidapi.Entity;
+using dotidapi.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace dotidapi.Context
@@ -17,5 +18,7 @@ namespace dotidapi.Context
         public virtual DbSet<PopulationEntity> FactPopulations {  get; set; }    
 
         public virtual DbSet<RegionEntity> Regions { get; set; }
+
+        public virtual DbSet<AgeDifferenceModel> Difference {  get; set; }
     }
 }

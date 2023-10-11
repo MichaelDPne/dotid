@@ -1,11 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "8pewCghXYVIhbVRHHVXiQoBFgwPIKmcxospJ8/nb4E/BqkDtb+ZURzl97tSvyIprrSIQdWb08VOtchKPZs+Iow==",
+  "dgSpecHash": "tekc+r1AWLRey6VZNHtGAVAxyPjFzjmWtnIqtf0W/aiFv2dDOXiE5BKhjzfI9bgQYiJRxCkEFhVJgs6bw9d2LA==",
   "success": true,
-  "projectFilePath": "C:\\code\\dotid-api\\dotidapi\\dotidapi.csproj",
+  "projectFilePath": "C:\\code\\dotid-git\\dotid-api\\dotidapi\\dotidapi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mikey\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
+    "C:\\Users\\Mikey\\.nuget\\packages\\dapper\\2.1.4\\dapper.2.1.4.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",

@@ -32,6 +32,8 @@ namespace dotidapi.Models
 
         public string RegionName { get; set; } = string.Empty;
 
-        public IEnumerable<AgeStructureResponseDiffData>? Data { get; set; }
+        public string CensusYear { get; set;} = string.Empty;
+
+        public IEnumerable<AgeDifferenceModel>? Data { get; set; }
     }
 }

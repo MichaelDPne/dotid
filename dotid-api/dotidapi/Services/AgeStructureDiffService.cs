@@ -7,33 +7,31 @@ using Dapper;
 
 namespace dotidapi.Services
 {
-    public class AgeStructureService : IAgeStructureService
+    public class AgeStructureDiffService : IAgeStructureDiffService
     {
         private readonly IAgeStructureDataAccess _ageStructureDataAccess;
         private readonly IRegionRepository _regionRepository;
-        private readonly IFactRepository _factRepository;
 
-
-        public AgeStructureService(
+        public AgeStructureDiffService(
             IRegionRepository regionRepository, 
-            IFactRepository factRepository) { 
+            IAgeStructureDataAccess ageStructureDataAccess) { 
         
             _regionRepository = regionRepository;
-            _factRepository = factRepository;
+            _ageStructureDataAccess = ageStructureDataAccess;
         }
 
-        public async Task<AgeStructureResponse> GetAgeStructure(AgeStructureRequest request)
+        public async Task<AgeStructureDiffResponse> GetAgeStructureDiff(AgeStructureDiffRequest request)
         {
-
             var region = _regionRepository.Get(request.Code);
-            var data = _factRepository.Get(request.Code, request.Sex);
 
+            var difference = await _ageStructureDataAccess.GetAgeDifferenceModelAsync(request);
 
-            return new AgeStructureResponse
+            return new AgeStructureDiffResponse
             {
                 RegionCode = region.Id.ToString(),
                 RegionName = region.Name,
-                Data = data,
+                CensusYear = $"{request.Year1} - {request.Year2}",
+                Data = difference,
             };
         }
     }

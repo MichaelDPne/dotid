@@ -7,9 +7,14 @@ namespace dotidapi.Controllers
     public class AgeStructureController : Controller
     {
         private readonly IAgeStructureService _ageStructureService;
+        private readonly IAgeStructureDiffService _ageStructureDiffService;
 
-        public AgeStructureController(IAgeStructureService ageStructureService) { 
+        public AgeStructureController(
+            IAgeStructureService ageStructureService,
+            IAgeStructureDiffService ageStructureDiffService)
+        {
             this._ageStructureService = ageStructureService;
+            this._ageStructureDiffService = ageStructureDiffService;
         }
 
         [Route("age-structure/{code}/{sex}")]
@@ -23,7 +28,7 @@ namespace dotidapi.Controllers
         [HttpGet]
         public async Task<AgeStructureDiffResponse> GetAgeStructureDiff(AgeStructureDiffRequest request)
         {
-            return await this._ageStructureService.GetAgeStructureDiff(request);
+            return await this._ageStructureDiffService.GetAgeStructureDiff(request);
         }
     }
 }

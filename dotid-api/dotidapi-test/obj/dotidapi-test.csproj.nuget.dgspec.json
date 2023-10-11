@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\code\\dotid-api\\dotidapi-test\\dotidapi-test.csproj": {}
+    "C:\\code\\dotid-git\\dotid-api\\dotidapi-test\\dotidapi-test.csproj": {}
   },
   "projects": {
-    "C:\\code\\dotid-api\\dotidapi-test\\dotidapi-test.csproj": {
+    "C:\\code\\dotid-git\\dotid-api\\dotidapi-test\\dotidapi-test.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\dotid-api\\dotidapi-test\\dotidapi-test.csproj",
+        "projectUniqueName": "C:\\code\\dotid-git\\dotid-api\\dotidapi-test\\dotidapi-test.csproj",
         "projectName": "dotidapi-test",
-        "projectPath": "C:\\code\\dotid-api\\dotidapi-test\\dotidapi-test.csproj",
+        "projectPath": "C:\\code\\dotid-git\\dotid-api\\dotidapi-test\\dotidapi-test.csproj",
         "packagesPath": "C:\\Users\\Mikey\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\dotid-api\\dotidapi-test\\obj\\",
+        "outputPath": "C:\\code\\dotid-git\\dotid-api\\dotidapi-test\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mikey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -28,8 +28,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\code\\dotid-api\\dotidapi\\dotidapi.csproj": {
-                "projectPath": "C:\\code\\dotid-api\\dotidapi\\dotidapi.csproj"
+              "C:\\code\\dotid-git\\dotid-api\\dotidapi\\dotidapi.csproj": {
+                "projectPath": "C:\\code\\dotid-git\\dotid-api\\dotidapi\\dotidapi.csproj"
               }
             }
           }
@@ -89,14 +89,14 @@
         }
       }
     },
-    "C:\\code\\dotid-api\\dotidapi\\dotidapi.csproj": {
+    "C:\\code\\dotid-git\\dotid-api\\dotidapi\\dotidapi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\code\\dotid-api\\dotidapi\\dotidapi.csproj",
+        "projectUniqueName": "C:\\code\\dotid-git\\dotid-api\\dotidapi\\dotidapi.csproj",
         "projectName": "dotidapi",
-        "projectPath": "C:\\code\\dotid-api\\dotidapi\\dotidapi.csproj",
+        "projectPath": "C:\\code\\dotid-git\\dotid-api\\dotidapi\\dotidapi.csproj",
         "packagesPath": "C:\\Users\\Mikey\\.nuget\\packages\\",
-        "outputPath": "C:\\code\\dotid-api\\dotidapi\\obj\\",
+        "outputPath": "C:\\code\\dotid-git\\dotid-api\\dotidapi\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mikey\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -125,6 +125,10 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "dependencies": {
+            "Dapper": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.11, )"

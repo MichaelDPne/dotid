@@ -1,13 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "UXFu8cJ/NVZS5QdwAsETr4wxIpOIIcR9m8mKKZSoUNvjrw0nZ+u/IALYaPZpg57iRisufKf/KCEkhetmw0CCoQ==",
+  "dgSpecHash": "MDIQQWwU/wmZrlnVPFmIkAPFL6K6qgKiiXXYmjWr4mBPWatzZeyh7b61uvjJCA+gvTMdlgrMuzDe3/4ZaLXvlg==",
   "success": true,
-  "projectFilePath": "C:\\code\\dotid-api\\dotidapi-test\\dotidapi-test.csproj",
+  "projectFilePath": "C:\\code\\dotid-git\\dotid-api\\dotidapi-test\\dotidapi-test.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mikey\\.nuget\\packages\\azure.core\\1.25.0\\azure.core.1.25.0.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\azure.identity\\1.7.0\\azure.identity.1.7.0.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\castle.core\\5.0.0\\castle.core.5.0.0.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\coverlet.collector\\3.2.0\\coverlet.collector.3.2.0.nupkg.sha512",
+    "C:\\Users\\Mikey\\.nuget\\packages\\dapper\\2.1.4\\dapper.2.1.4.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.11\\microsoft.aspnetcore.openapi.7.0.11.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Mikey\\.nuget\\packages\\microsoft.codecoverage\\17.7.1\\microsoft.codecoverage.17.7.1.nupkg.sha512",

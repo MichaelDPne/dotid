@@ -10,7 +10,7 @@ namespace dotidapi.Entity
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public int Id { get; set; }
 
-        public string Age { get; set; } = string.Empty;
+        public int Age { get; set; } 
 
         public int Region {  get; set; }
 
