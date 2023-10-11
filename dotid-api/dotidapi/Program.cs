@@ -5,6 +5,7 @@ using dotidapi.Services;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using System.Configuration;
+using dotidapi.DataAccess;
 
 namespace dotidapi
 {
@@ -21,7 +22,12 @@ namespace dotidapi
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
 
-            builder.Services.AddScoped<IAgeStructureService, AgeStructureService>();
+            builder.Services.AddTransient<IFactRepository, FactRepository>();
+            builder.Services.AddTransient<IRegionRepository, RegionRepository>();
+
+            builder.Services.AddTransient<IAgeStructureDiffService, AgeStructureDiffService>();
+            builder.Services.AddTransient<IAgeStructureService, AgeStructureService>();
+            builder.Services.AddTransient<IAgeStructureDataAccess, AgeStructureDataAccess>();
 
             var startup = new Startup(builder.Configuration);
             startup.ConfigureServices(builder.Services);
